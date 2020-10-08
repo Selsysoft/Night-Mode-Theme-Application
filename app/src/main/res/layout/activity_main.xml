@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Setting"
+    android:padding="24dp"
+    android:orientation="vertical"
+    android:background="?attr/backgroundcolor">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tema Değişikliği"
+                android:textColor="?attr/textcolor"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Temanızı kolayca değiştirin. Altta örnek araçlar bulunur."
+                android:textColor="?attr/textcolor" />
+            <RadioButton
+                android:textColor="?attr/textcolor"
+                android:id="@+id/radioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="?attr/tintcolor"
+                android:text="RadioButton" />
+            <CheckBox
+                android:textColor="?attr/textcolor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CheckBox"
+                android:buttonTint="?attr/tintcolor"/>
+            <Button
+                android:id="@+id/button"
+                android:hint="2 GEÇ"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColorHint="?attr/buttontextcolor"
+                android:background="?attr/buttoncolor"
+                style="@style/darkTheme"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="Karanlık Modu Etkinleştir"
+                    android:textColor="?attr/textcolor" />
+                <Switch
+                    android:id="@+id/myswitch"
+                    android:layout_marginTop="8dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Gece Modu"
+                    android:textColor="?attr/textcolor"/>
+            </LinearLayout>
+
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+
+</LinearLayout>
+
